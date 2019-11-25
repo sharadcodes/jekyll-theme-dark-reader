@@ -1,0 +1,19 @@
+title: "Dark Reader"
+markdown: kramdown
+url: ""
+baseurl: "/jekyll-theme-dark-reader"
+
+plugins: 
+  - jekyll-paginate
+  - jemoji
+  
+paginate_path: "/page:num/"
+
+paginate: 5
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
