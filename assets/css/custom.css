@@ -5,6 +5,10 @@ body {
 	color: rgb(167, 158, 139) !important;
 }
 
+img {
+	max-width: 100% !important;
+}
+
 /* header */
 
 header {
