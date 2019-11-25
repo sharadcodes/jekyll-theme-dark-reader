@@ -11,6 +11,11 @@ paginate_path: "/page:num/"
 
 paginate: 5
 
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
 defaults:
   -
     scope:
