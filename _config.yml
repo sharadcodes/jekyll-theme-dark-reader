@@ -8,7 +8,7 @@ author:
   name: Sharad Raj Singh Maurya
   email: dev_sharad@outlook.com
 
-
+incremental: true
 plugins:
   - jekyll-paginate
   - jemoji
