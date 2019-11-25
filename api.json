@@ -31,6 +31,7 @@ layout: null
     "pages": [
             {% for page in site.pages %}
             {
+                "id": {{page.title | downcase | jsonify}},
                 "title": {{ page.title | jsonify }},
                 "content_text": {{ page.content | strip_html | strip_newlines | jsonify }},
                 "content_html": {{ page.content | strip_newlines | jsonify }},
@@ -39,6 +40,5 @@ layout: null
                 "date_modified": "{{ page.date | date_to_xmlschema }}"
             }{% if forloop.last == false %},{% endif %}
         {% endfor %}
-    ]    
-        
+    ]           
 }
