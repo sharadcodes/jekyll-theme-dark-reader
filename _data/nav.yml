@@ -4,4 +4,4 @@ list:
   - title: About
     url: about
   - title: Feed
-    url: atom.xml
+    url: feed.xml
