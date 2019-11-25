@@ -49,7 +49,7 @@ main {
 	line-height: 1.5rem;
 }
 
-.content a{
+.content a {
 	text-decoration: underline;
 }
 
@@ -90,4 +90,14 @@ footer {
 	color: #72b6b5;
 	font-size: 0.7rem;
 	margin: 4rem 20% 4rem 20%;
+}
+
+@media screen and (max-width: 780px) {
+	nav,
+	header,
+	footer,
+	main {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 }
