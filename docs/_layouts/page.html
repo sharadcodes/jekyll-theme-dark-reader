@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+		<style>
+			.title {
+				padding: 5%;
+				color: #101417;
+				font-size: 18px;
+				font-weight: bold;
+				text-align: center;
+				background: #f78e66;
+				display: grid;
+			}
+		</style>
+		<!-- header -->
+		{% include header.html %}
+		<!-- nav -->
+		{% include nav.html %}
+		<!-- page content -->
+		<main class="content">
+			<p class="title">
+				{{page.title}}
+			</p>
+			{{page.content}}
+		</main>
+
+		<!-- footer -->
+		{% include footer.html %}
+	</body>
+</html>

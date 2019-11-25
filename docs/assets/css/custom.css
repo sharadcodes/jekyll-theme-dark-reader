@@ -1,0 +1,93 @@
+* {
+	outline: none;
+}
+body {
+	color: rgb(167, 158, 139) !important;
+}
+
+/* header */
+
+header {
+	margin: 2rem 20% -2rem 20%;
+	display: flex;
+	justify-content: center;
+}
+
+header * {
+	color: #f78e66 !important;
+	font-size: 2rem !important;
+}
+
+/* nav */
+
+nav {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 3rem;
+	line-height: 2rem;
+}
+
+nav a {
+	color: #72b6b5 !important;
+	padding-right: 2rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+nav a:hover {
+	text-decoration: underline !important;
+}
+
+/* main */
+
+main {
+	margin-top: 3rem;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: grid;
+	grid-gap: 1.4rem;
+	line-height: 1.5rem;
+}
+
+.content a{
+	text-decoration: underline;
+}
+
+.post-list a {
+	text-decoration: none;
+	position: relative;
+	color: #f78e66 !important;
+	/* color: #72b6b5 !important; */
+}
+
+.post-list a:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	border-bottom: 2px solid #f78e66;
+	transition: 0.4s;
+}
+
+.post-list a:hover:after {
+	width: 100%;
+}
+
+.post-list a:before,
+.post-list a:before {
+	content: "#";
+	color: #42b983;
+	position: absolute;
+	left: -0.8em;
+	font-weight: bold;
+}
+
+/* footer */
+
+footer {
+	font-weight: bold;
+	color: #72b6b5;
+	font-size: 0.7rem;
+	margin: 4rem 20% 4rem 20%;
+}
