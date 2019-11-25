@@ -3,10 +3,12 @@ markdown: kramdown
 url: ""
 baseurl: "/jekyll-theme-dark-reader"
 
-plugins: 
+plugins:
   - jekyll-paginate
   - jemoji
-  
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 paginate_path: "/page:num/"
 
 paginate: 5
@@ -15,10 +17,11 @@ collections_dir: all_collections
 collections:
   posts:
     output: true
+  projects:
+    output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "post"
