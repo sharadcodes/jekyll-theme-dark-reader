@@ -1,8 +1,52 @@
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>{{site.title}} | {{page.title}}</title>
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/mark.css" />
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/custom.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>{{site.title}} | {{page.title}}</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/mark.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/custom.css" />
+  <!-- PILL JS LOADER SYLE -->
+  <style>
+    #indicator {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      display: none;
+      background-color: #72b6b5;
+    }
+
+    .is-loading {
+      display: block;
+      animation: blink 1.5s linear infinite;
+    }
+
+    @keyframes blink {
+      from,
+      to {
+        background-color: #72b6b5;
+      }
+
+      50% {
+        background-color: #42b983;
+      }
+    }
+
+    #project-link {
+      display: block;
+      position: fixed;
+      padding: 8px;
+      top: 0;
+      right: 0;
+    }
+  </style>
+  <!-- PILL JS -->
+  <script src="{{site.baseurl}}/assets/js/pill.min.js"></script>
+  <script>
+    // this is for pill js as the normal link wont work
+    function openLink(url) {
+      window.open(url, "_blank");
+    }
+  </script>
 </head>
