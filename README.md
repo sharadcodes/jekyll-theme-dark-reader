@@ -1,6 +1,10 @@
 # Jekyll Theme Dark Reader
 
->A Minimal Dark theme for jekyll with minimal CSS
+>A Minimal Dark theme for jekyll with minimal CSS and blazing fast loading of pages thanks to [Pill](https://github.com/rumkin/pill) 
+
+## Theme is now shipped with [Pill](https://github.com/rumkin/pill) 
+![PillJS](https://raw.githubusercontent.com/rumkin/pill/master/docs/cover.png)
+
 
 [Live Demo](https://sharadcodes.github.io/jekyll-theme-dark-reader/)
 
