@@ -1,6 +1,16 @@
 * {
 	outline: none;
+	--scrollbar-color: #f78e66;
 }
+
+::-webkit-scrollbar {
+width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+background: var(--scrollbar-color);
+}
+
 body {
 	color: rgb(167, 158, 139) !important;
 }
