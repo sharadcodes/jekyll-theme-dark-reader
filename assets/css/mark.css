@@ -1,5 +1,6 @@
 * {
 	font-family: monospace;
+	--theme-color: #f78e66;
 }
 
 p {
@@ -51,7 +52,7 @@ h6 {
 	text-align: left;
 	font-weight: bold;
 	/* color: #80f79f; */
-	color: #f78e66;
+	color: var(--theme-color);
 	position: relative;
 }
 /* 
