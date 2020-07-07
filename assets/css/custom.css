@@ -1,5 +1,6 @@
 * {
 	outline: none;
+	--theme-color: #f78e66;
 }
 body {
 	color: rgb(167, 158, 139) !important;
@@ -18,7 +19,7 @@ header {
 }
 
 header * {
-	color: #f78e66 !important;
+	color: var(--theme-color) !important;
 	font-size: 2rem !important;
 }
 
@@ -60,7 +61,7 @@ main {
 .post-list a {
 	text-decoration: none;
 	position: relative;
-	color: #f78e66 !important;
+	color: var(--theme-color) !important;
 	/* color: #72b6b5 !important; */
 }
 
@@ -70,7 +71,7 @@ main {
 	bottom: 0;
 	left: 0;
 	width: 0%;
-	border-bottom: 2px solid #f78e66;
+	border-bottom: 2px solid var(--theme-color);
 	transition: 0.4s;
 }
 
