@@ -27,8 +27,6 @@ You can use the sponsor button at the top or on the right.
 
 [Github Sponsor Page](https://github.com/sponsors/sharadcodes)
 
-For Indians, you may use my UPI ID: `iamsharadraj@okaxis`.
-
 # Screenshots
 
 ## BLOG PAGE
